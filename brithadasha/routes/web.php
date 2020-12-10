@@ -18,9 +18,14 @@ Route::get('/index', function(){
 
 
 Route::get('/',function(){
-    return view('welcome');
+    return view('index');
 });
 
+//Route::get('/login','LoginController@__construct')->name('login');
+
+
 Auth::routes();
+
+
 
 Route::get('/home', 'HomeController@index')->name('home');
