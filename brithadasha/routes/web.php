@@ -21,8 +21,7 @@ Route::get('/',function(){
     return view('index');
 });
 
-//Route::get('/login','LoginController@__construct')->name('login');
-
+Route::get('/Randy/hola', 'RolController@store');
 
 Auth::routes();
 

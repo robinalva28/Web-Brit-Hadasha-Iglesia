@@ -5,13 +5,13 @@
 
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
+            <div class="carousel-item active" data-bs-interval="6000">
                 <img src="{{asset('img/principal.jpg')}}" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
+            <div class="carousel-item" data-bs-interval="6000">
                 <img src="{{asset('img/mision.jpg')}}" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
+            <div class="carousel-item" data-bs-interval="6000">
                 <img src="{{asset('img/vision.jpg')}}" class="d-block w-100" alt="...">
             </div>
         </div>
