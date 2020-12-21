@@ -22,6 +22,18 @@
     <list default="true" id="ec9efe54-5699-4d9a-b5a0-1afc01b06b67" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../brit/webpack.mix.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Church.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Church.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GlobalEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GlobalEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/InternalEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/InternalEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Rol.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Rol.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Rol_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Rol_User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_14_221254_create_table_rol_user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_15_224829_create_table_global_events.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_15_224948_create_table_internal_events.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_15_225604_create_table_rols.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_15_225827_create_table_churchs.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +205,7 @@
       <workItem from="1607981751591" duration="9524000" />
       <workItem from="1608071547029" duration="2248000" />
       <workItem from="1608224262701" duration="409000" />
-      <workItem from="1608577076357" duration="1504000" />
+      <workItem from="1608577076357" duration="8174000" />
     </task>
     <servers />
   </component>

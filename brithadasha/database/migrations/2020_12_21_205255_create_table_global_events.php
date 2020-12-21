@@ -14,8 +14,9 @@ class CreateTableGlobalEvents extends Migration
     public function up()
     {
         Schema::create('global_events', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->bigIncrements('event_id');
-            $table->Integer('event_creator_id');
+            $table->unsignedBigInteger('event_creator_id');
             $table->string('event_description');
             $table->date('event_date');
             $table->timestamps();

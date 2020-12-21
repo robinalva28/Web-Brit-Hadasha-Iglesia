@@ -13,15 +13,19 @@ class CreateTableInternalEvents extends Migration
      */
     public function up()
     {
+        DB::statement('set foreign_key_checks=0');
+
         Schema::create('internal_events', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->bigIncrements('inevent_id');
-            $table->Integer('inevent_creator_id');
+            $table->unsignedBigInteger('inevent_creator_id');
             $table->string('inevent_description');
             $table->date('inevent_date');
             $table->timestamps();
             $table->foreign('inevent_creator_id')->references('user_id')->on('users');
 
         });
+        DB::statement('set foreign_key_checks=1');
     }
 
     /**
