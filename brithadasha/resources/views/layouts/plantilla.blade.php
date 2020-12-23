@@ -48,9 +48,92 @@
 
 
 
-{{--FOOTER--}}
-<footer>
-    <p>aqu&iacute va el footer</p>
+<!-- FOOTER -->
+<footer class="page-footer font-small blue mt-auto">
+    ​
+    <!-- Footer Links -->
+    <div id="footer" class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase">Brit Hadasha</h5>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">mapa sitio</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="/">Nuestra casa</a>
+                    </li>
+                   {{-- <li>
+                        <a href="/faq">FAQ</a>
+                    </li>--}}
+
+                    <li>
+                        <a href="/login">Login</a>
+                    </li>
+                    <li>
+                        <a href="/register">Registro</a>
+                    </li>
+                    <li>
+                        <a href="/register">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">Contacto</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!"><i class="fab fa-facebook-f" ></i></a>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="fab fa-instagram" ></i></a>
+                    </li>
+                    <li>
+                        <i class="far fa-envelope" > <a href="mailto:brithadashaiglesia@gmail.com">brithadashaiglesia@gmail.com</a></i>
+                        ​
+                    </li>
+                    <li>
+                        <i class="fas fa-phone" > 11-1234-5678</i>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020
+
+    </div>
+    <!-- Copyright -->
+
 </footer>
 
 

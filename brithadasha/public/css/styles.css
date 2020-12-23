@@ -9,3 +9,26 @@ header nav div ul li a:hover {
     color: #1d2124;
 }
 */
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    margin: 0 auto;
+    margin-bottom: 24vh;
+}
+/*#footer{
+    background-color: white;
+}*/
+footer {
+    margin-bottom: -5px;
+    color: black;
+    /* margin-top: 21vh; */
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25vh;
+
+}
