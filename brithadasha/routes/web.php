@@ -11,6 +11,8 @@
 |
 */
 
+/*HOME*/
+
 Route::get('/index', function(){
    return view('index');
 });
@@ -20,7 +22,13 @@ Route::get('/',function(){
     return view('index');
 });
 
-Route::get('/Randy/hola', 'RolController@store');
+/*BARRA NAV*/
+
+Route::get('/contact', function (){
+    return view('contact');
+});
+
+
 
 Auth::routes();
 

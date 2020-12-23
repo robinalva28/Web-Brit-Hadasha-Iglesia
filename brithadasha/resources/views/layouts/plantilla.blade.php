@@ -13,12 +13,14 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/styles.css')}}">
-    <title>Brit Hadasha | Iglesia</title>
+    <title>@yield('title')</title>
 </head>
 <body>
 <header>
+    {{--BARRA DE NAV--}}
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
+            {{--LOGO--}}
             <a class="navbar-brand" href="/"><img height="40vh" src="{{asset('img/Transparentepeq.png')}}" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,12 +30,32 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/">Nuestra casa</a>
                     </li>
+
+                {{--===================================================================--}}
+                {{--NAV SECCIÓN NO LOGUEADOS--}}
+                {{--===================================================================--}}
+                    @if (Route::has('login'))
+                        @auth
+                            <li class="nav-item">
+                                <a class="nav-link" href="/home">Inicio</a>
+                            </li>
+                        @else
+
                     <li class="nav-item">
                         <a class="nav-link" href="/login">Ingresar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="/contact">Contacto</a>
                     </li>
+
+                    @endauth
+
+                    @endif
+                    {{--===================================================================--}}
+                    {{--NAV SECCIÓN LOGUEADOS--}}
+                    {{--===================================================================--}}
+
+
                 </ul>
                 <span class="navbar-text">
         Brit Hadasha | Iglesia

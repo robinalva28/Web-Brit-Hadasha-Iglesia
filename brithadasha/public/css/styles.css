@@ -16,7 +16,7 @@ html {
 
 body{
     margin: 0 auto;
-    margin-bottom: 24vh;
+    margin-bottom: 25vh;
 }
 /*#footer{
     background-color: white;
@@ -25,7 +25,7 @@ footer {
     margin-bottom: -5px;
     color: black;
     /* margin-top: 21vh; */
-    background-color: white;
+    background-color: transparent;
     position: absolute;
     bottom: 0;
     width: 100%;

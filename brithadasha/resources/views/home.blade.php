@@ -1,4 +1,5 @@
 @extends('layouts.plantilla')
+@section('title','Inicio')
 
 @section('content')
 <div class="container">
@@ -14,7 +15,14 @@
                         </div>
                     @endif
 
-                    You are logged in!
+
+
+                    You are logged in!<br>
+                        <form action="{{ route('logout') }}" method="post">
+                            @csrf
+                            <button type="submit">logout!</button>
+                        </form>
+
                 </div>
             </div>
         </div>

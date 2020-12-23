@@ -1,5 +1,7 @@
 @extends('layouts.plantilla')
 
+@section('title','Register')
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -12,10 +14,10 @@
                         @csrf
                         {{--NAME--}}
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
+                            <label for="user_name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
                             <div class="col-md-6">
-                                <input id="name" type="text" class="bg-transparent form-control @error('user_name') is-invalid @enderror" name="user_name"
-                                       value="{{ old('user_name') }}" required autocomplete="name" autofocus>
+                                <input id="user_name" type="text" class="bg-transparent form-control @error('user_name') is-invalid @enderror" name="user_name"
+                                       value="{{ old('user_name') }}" required autocomplete="user_name" autofocus>
 
                                 @error('user_name')
                                     <span class="invalid-feedback" role="alert">
@@ -57,11 +59,11 @@
 
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+                            <label for="user_email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="bg-transparent form-control @error('user_email') is-invalid @enderror" name="user_email"
-                                       value="{{ old('user_email') }}" required autocomplete="email">
+                                <input id="user_email" type="email" class="bg-transparent form-control @error('user_email') is-invalid @enderror" name="user_email"
+                                       value="{{ old('user_email') }}" required autocomplete="user_email">
 
                                 @error('user_email')
                                     <span class="invalid-feedback" role="alert">
@@ -72,10 +74,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+                            <label for="user_password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="bg-transparent form-control @error('user_password') is-invalid @enderror"
+                                <input id="user_password" type="password" class="bg-transparent form-control @error('user_password') is-invalid @enderror"
                                        name="user_password" required autocomplete="new-password">
 
                                 @error('user_password')
@@ -91,7 +93,7 @@
 
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="bg-transparent form-control"
-                                       name="password_confirmation" required autocomplete="new-password">
+                                       name="user_password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
 

@@ -1,6 +1,22 @@
 @extends('layouts.plantilla')
 
+@section('title','Brit Hadasha | Iglesia')
+
 @section('content')
+
+    {{-- mensajes de ok --}}
+    @if( session()->has('mensaje-ok') )
+        <div class="alert alert-danger">
+            {{ session()->get('mensaje-ok') }}
+        </div>
+    @endif
+
+    {{--SI ESTA LOGUEADO--}}
+    @if(Auth::user())
+        {{--aca va el codigo del user logueado--}}
+    @else
+
+    @endif
     {{--Carousel--}}
 
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -24,6 +40,7 @@
             <span class="visually-hidden">Next</span>
         </a>
     </div>
+
     {{--end Carousel--}}
 
 @endsection
