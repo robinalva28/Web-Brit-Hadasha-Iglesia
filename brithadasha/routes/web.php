@@ -35,3 +35,14 @@ Auth::routes();
 
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+/*SUBMENU*/
+Route::get('/mirol', function(){
+    return view('myrol');
+});
+
+Route::get('/agenda', function(){
+    return view('agenda');
+});
+
+
