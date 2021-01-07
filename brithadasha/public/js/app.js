@@ -65920,8 +65920,8 @@ if (document.getElementById('example')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/rob/Programacion y eventos/brit/brithadasha/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/rob/Programacion y eventos/brit/brithadasha/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/rob/Programacion y eventos/brithadasha/brithadasha/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/rob/Programacion y eventos/brithadasha/brithadasha/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
