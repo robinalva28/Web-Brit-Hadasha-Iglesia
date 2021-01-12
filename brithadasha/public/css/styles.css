@@ -12,12 +12,16 @@ header nav div ul li a:hover {
 html {
     min-height: 100%;
     position: relative;
+    background: transparent;
+
 }
 
 body{
+    background: transparent;
     margin: 0 auto;
     margin-bottom: 21rem;
 }
+
 /*#footer{
     background-color: white;
 }*/

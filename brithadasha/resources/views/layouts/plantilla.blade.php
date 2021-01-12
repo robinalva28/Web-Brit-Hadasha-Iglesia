@@ -17,6 +17,7 @@
     <title>@yield('title')</title>
 </head>
 <body>
+<div class="bg-image"></div>
 <header>
     {{--BARRA DE NAV--}}
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -40,6 +41,14 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/home">Inicio</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/mirol">Mi Servicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/mirol">Perfil</a>
+                            </li>
+
+
 
                         @else
 
@@ -68,7 +77,7 @@
 
     @if(Auth::user())
     {{--BARAR INTERNA DE NAVEGACION--}}
-        <ul class="nav nav-tabs">
+     {{--   <ul class="nav nav-tabs">
             <li class="nav-item submenu">
                 <a class="nav-link active" href="/mirol">
                     Mi Servicio</a>
@@ -86,7 +95,9 @@
                 <a class="nav-link" href="/miperfil">
                     Mi perfil</a>
             </li>
-        </ul>
+        </ul>--}}
+
+
     @endif
 
 </header>

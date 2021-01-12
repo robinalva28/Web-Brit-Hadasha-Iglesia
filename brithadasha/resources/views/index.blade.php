@@ -12,11 +12,7 @@
     @endif
 
     {{--SI ESTA LOGUEADO--}}
-    @if(Auth::user())
-        {{--aca va el codigo del user logueado--}}
 
-    @else
-        {{--LO QUE VE EL USUARIO NO LOGUEADO--}}
         {{--Carousel--}}
 
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
@@ -42,7 +38,7 @@
         </div>
 
         {{--end Carousel--}}
-    @endif
+
 
 
 @endsection
