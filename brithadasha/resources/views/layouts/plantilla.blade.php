@@ -17,6 +17,7 @@
     <title>@yield('title')</title>
 </head>
 <body>
+
 <div class="bg-image"></div>
 <header>
     {{--BARRA DE NAV--}}

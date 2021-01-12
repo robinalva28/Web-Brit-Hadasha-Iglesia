@@ -9,7 +9,7 @@
             <div class="card border-0 bg-transparent">
                 <div class="card-header">{{ __('Login') }}</div>
 
-                <div class="card-body bg-transparent">
+                <div class="card-body  bg-light " style="border-radius: 5px;" >
                     <form method="POST" action="login">
                         @csrf
 

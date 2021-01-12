@@ -12,16 +12,27 @@ header nav div ul li a:hover {
 html {
     min-height: 100%;
     position: relative;
-    background: transparent;
+    /*background: transparent;*/
 
 }
 
 body{
-    background: transparent;
+
+    /*filter:blur(3px);
+    background-size:cover;*/
+    /*background: transparent;*/
     margin: 0 auto;
     margin-bottom: 21rem;
 }
 
+.bg-image{
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url("../img/fondoprueba2.jpg");
+    position: fixed;
+    filter:blur(8px);/*
+    background-size:cover;*/
+}
 /*#footer{
     background-color: white;
 }*/
