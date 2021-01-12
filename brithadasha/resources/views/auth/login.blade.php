@@ -64,7 +64,7 @@
                                         {{ __('Forgot Your Password?') }}
                                     </a><br><br>
                                     <a  href="{{route('register')}}">
-                                        Don't have an account? Sign In</a>
+                                        {{ __("Don't have an account? Sign In") }}</a>
                                 @endif
 
                             </div>
