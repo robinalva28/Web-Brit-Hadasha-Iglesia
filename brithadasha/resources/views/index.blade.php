@@ -19,7 +19,7 @@
         {{--LO QUE VE EL USUARIO NO LOGUEADO--}}
         {{--Carousel--}}
 
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="6000">
                     <img src="{{asset('img/principal.jpg')}}" class="d-block w-100" alt="...">

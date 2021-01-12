@@ -19,7 +19,7 @@
 <body>
 <header>
     {{--BARRA DE NAV--}}
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             {{--LOGO--}}
             <a class="navbar-brand" href="/"><img height="40vh" src="{{asset('img/Transparentepeq.png')}}" alt=""></a>
