@@ -1,3 +1,4 @@
+
 @extends('layouts.plantilla')
 
 @section('title','Brit Hadasha | Iglesia')
@@ -36,7 +37,10 @@
                 <span class="visually-hidden">Next</span>
             </a>
         </div>
-
+        {{--COMPONENTE DE PRUEBA --}}
+        <div id="componente">
+            {{--aqui va el componente--}}<Componente />
+        </div>
         {{--end Carousel--}}
 
 

@@ -5,10 +5,11 @@
 @section('content')
 
 <div class="container">
+    <div class="row col-6 h1">Mis Servicios</div>
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="imagen del servicio">
+            <div class="card bg-light">
+                <img src="{{asset('img/Alabanza.jpg')}}" class="card-img-top" alt="imagen del servicio">
                 <div class="card-body">
                     <h5 class="card-title">Alabanza</h5>
                     <p class="card-text">Este es un texto que describe las responsabilidades y beneficios de pertenecer al servicio de alabanza.</p>
