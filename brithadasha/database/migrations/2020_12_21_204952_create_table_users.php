@@ -11,6 +11,14 @@ class CreateTableUsers extends Migration
      *
      * @return void
      */
+
+    /*UPDATE users
+    SET
+    user_isAdmin = true,
+    user_adminGroup += 0
+    WHERE
+    email = 'admin@admin.com';*/
+
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
@@ -25,6 +33,8 @@ class CreateTableUsers extends Migration
             $table->date('user_birthdate')->nullable();
             $table->date('user_marriage_date')->nullable();
             $table->timestamp('email_verified_at')->nullable();
+            $table->integer('user_isAdmin')->nullable();
+            $table->string('user_adminGroup')->nullable();
 
             $table->rememberToken();
             $table->timestamps();

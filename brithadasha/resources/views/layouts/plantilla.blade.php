@@ -1,3 +1,4 @@
+{{--TO RUN REACT, HAVE TO WRITE THIS COMMAND: npm run watch-poll--}}
 <!doctype html>
 <html lang="en">
 <head>

@@ -8,7 +8,7 @@ export default class Componente extends Component {
                 <div className="row justify-content-center">
                     <div className="col-md-8">
                         <div className="card">
-                            <div className="card-header">Hola, Este es el componente.</div>
+                            <div className="card-header">Hola! Este es el componente de ReactJS.</div>
                         </div>
                     </div>
                 </div>

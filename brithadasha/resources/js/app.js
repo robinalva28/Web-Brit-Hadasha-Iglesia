@@ -16,3 +16,4 @@ require('./components/Example');
 
 
 require('./components/Componente');
+require('./components/NavComponent');

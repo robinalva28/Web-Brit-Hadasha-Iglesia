@@ -65851,6 +65851,8 @@ __webpack_require__(/*! ./components/Example */ "./resources/js/components/Examp
 
 __webpack_require__(/*! ./components/Componente */ "./resources/js/components/Componente.js");
 
+__webpack_require__(/*! ./components/NavComponent */ "./resources/js/components/NavComponent.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -65974,7 +65976,7 @@ var Componente = /*#__PURE__*/function (_Component) {
         className: "card"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card-header"
-      }, "Hola, Este es el componente.")))));
+      }, "Hola! Este es el componente de ReactJS.")))));
     }
   }]);
 
@@ -66066,6 +66068,21 @@ var Example = /*#__PURE__*/function (_Component) {
 if (document.getElementById('example')) {
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Example, null), document.getElementById('example'));
 }
+
+/***/ }),
+
+/***/ "./resources/js/components/NavComponent.js":
+/*!*************************************************!*\
+  !*** ./resources/js/components/NavComponent.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+import React, {Component, Fragment} from "react";
+import ReactDOM from 'react-dom';
+
+*/
 
 /***/ }),
 
