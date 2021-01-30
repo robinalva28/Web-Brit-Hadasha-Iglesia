@@ -15,7 +15,7 @@ class CreateTableUsers extends Migration
     /*UPDATE users
     SET
     user_isAdmin = true,
-    user_adminGroup += 0
+    user_adminGroup = 0
     WHERE
     email = 'admin@admin.com';*/
 

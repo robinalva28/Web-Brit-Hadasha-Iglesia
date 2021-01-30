@@ -44,13 +44,23 @@
                                 <a class="nav-link" href="/home">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/mirol">Mi Servicio</a>
+                                <a class="nav-link" href="/miservicio">Mi Servicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/mirol">Perfil</a>
+                                <a class="nav-link" href="/miservicio">Perfil</a>
                             </li>
+                            @if(Auth::user()->user_isAdmin)
 
-
+                                <li class="nav-item dropdown">
+                                  <a class="dropdown-item nav-link dropdown-toggle" href="/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Administrar</a>
+                                    <div  class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a  href="/admin/servicios" class="dropdown-item">Servicios-Personas</a>
+                                        <a  href="#" class="dropdown-item">Administradores</a>
+                                        <a  href="/admin/servicios/index" class="dropdown-item">Servicios</a>
+                                    </div>
+                                </li>
+                            @endif
 
                         @else
 

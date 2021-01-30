@@ -37,4 +37,8 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function getRols(){
+        return $this->belongsTo('App\Rol_User','ru_id','userId');
+    }
 }
